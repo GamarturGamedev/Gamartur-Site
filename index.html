@@ -6,11 +6,17 @@
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cookie&display=swap" rel="stylesheet">
 <style>
 article
 {
-background-color: blue;
-border-radius: 10px;
+background-color: rgba(200, 200, 200, 0.25);
+border-radius: 20px;
+backdrop-filter: blur(15px);
+border: 1px solid rgba(248, 248, 248, 0.15);
+box-shadow: inset 0 1px rgba(250, 250, 250, 0.45);
 }
 h1
 {
@@ -36,11 +42,24 @@ img
 {
 margin-left: 05px;
 }
+footer
+{
+background-color: rgba(200, 200, 200, 0.25);
+border-radius: 20px;
+backdrop-filter: blur(15px);
+border: 1px 1px solid rgba(248, 248, 248, 0.15);
+box-shadow: inset 0 1px rgba(250, 250, 250, 0.45);
+}
 </style>
 </head>
 <!-- Article = Blue -->
-<body style="background-color: cyan;">
-<div style="background-color: blueviolet; border-radius: 10px;">
+<body style="background-color: blue">
+<div style="background-color: rgba(200, 200, 200, 0.25);
+border-radius: 20px;
+backdrop-filter: blur(15px);
+border: 1px 1px solid rgba(248, 248, 248, 0.15);
+box-shadow: inset 0 1px rgba(250, 250, 250, 0.35);
+">
 <h1 style="text-align: center;" onclick="alert('This is the Gamartur Site. Here have Gamartur Details.');">Gamartur Site</h1>
 <h2 style="text-align: center;">Find things about Gamartur</h2> 
 </div>
@@ -69,12 +88,12 @@ margin-left: 05px;
 <li>Unity used to create Gamartur modern games</li>
 </ul>
 </article>
-<footer style="background-color: blueviolet; border-radius: 10px;">
+<footer>
 <ul>
 <li>Programming</li>
 <li>Gamedev</li>
 </ul>
-<h3>Gamartur!</h3>
+<h3 style="font-family: 'Cookie', cursive; font-size: 30px;">Gamartur!</h3>
 <img src="gamarturlogo.jpg" alt="Failed to load. Is it Gamartur logo" style="border-radius: 10px;">
 </footer>
 </body>
